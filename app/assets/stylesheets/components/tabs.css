@@ -1,0 +1,44 @@
+.tab-frame input
+{
+    display:none;
+}
+
+.tab-frame label
+{
+    display:block;
+    float:left;
+    padding:5px 10px;
+    color: #567D8C;
+    cursor:pointer;
+    
+}
+
+.tab-frame input:checked + label
+{
+    background: #567D8C;
+    color: #F2F2F0;
+    margin-bottom: 20px;
+    border-radius: 0px 0px 5px 5px;
+    cursor:default;
+}
+
+.tab-frame .tab
+{
+    display:none;
+    padding:5px 10px;
+    clear:left;
+}
+
+.tab-frame input:nth-of-type(1):checked ~ .tab:nth-of-type(1), .tab-frame input:nth-of-type(2):checked ~ .tab:nth-of-type(2), .tab-frame input:nth-of-type(3):checked ~ .tab:nth-of-type(3)
+{
+    display:block;
+}
+
+
+.tab3-box
+{
+    padding-top: 20%;
+    text-align: center;
+    font-size: 2em;
+    color: #567D8C;
+}

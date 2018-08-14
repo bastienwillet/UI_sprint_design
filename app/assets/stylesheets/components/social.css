@@ -1,0 +1,26 @@
+.social
+{
+    position: fixed;
+    bottom: -2px;
+    width : 100px;
+    right: 30px;
+    padding: 22px;
+    background-color: #F2BD3C;
+    border-radius: 7px 7px 0px 0px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-img
+{
+    width: 25px;
+    height: 25px;
+}
+
+.social-img:hover
+{
+    filter: opacity(70%);
+}

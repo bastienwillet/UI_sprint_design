@@ -1,0 +1,56 @@
+.card
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card-img
+{
+    width: 250px;
+    height: 250px;
+    padding: 0px;
+    margin: 10px;
+    border: 0px;
+    box-shadow: 1px 1px 3px #164059; 
+}
+
+.card-title
+{
+    position: relative;
+    top: -200px;
+    left: 25px;
+    font-size: 1.2em;
+    color: transparent;
+    pointer-events: none;
+}
+
+.card-subtitle
+{
+    font-size: 1.5em;
+}
+
+.card-subsubtitle
+{
+    font-size: 0.8em;
+}
+
+.card-link
+{
+    height: 250px;
+    margin-bottom: 24px;
+    text-decoration: none;
+}
+
+.card-img:hover
+{
+    filter: opacity(15%);
+    transition: all 0.5s ease;
+}
+
+.card-img:hover + .card-title
+{
+    color: #164059;
+    transition: all 0.5s ease;
+}

@@ -1,0 +1,27 @@
+.button
+{
+    width: 110px;
+    height: 47px;
+    padding: 0px;
+    margin: 5px;
+    background-color: #F2F2F0;
+    border: 1.5px solid #567D8C; 
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1em;
+    color: #567D8C;
+    cursor: Pointer;
+}
+
+.button:hover
+{
+    background-color: #567D8C;
+    border: 1.5px solid #567D8C;
+    color: #F2F2F0;
+    transition: all  0.5s ease;
+}
+
+.button-lol:hover
+{
+    background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+}

@@ -1,0 +1,28 @@
+/* --- Import des polices Google Fonts stylesheets --- */
+@import url("http://fonts.googleapis.com/ css?family=Open+Sans:400,300,700|Montserrat:400,700");
+
+/* --- Import Components stylesheets --- */ 
+@import url("components/avatar.css"); 
+@import url("components/button.css");
+@import url("components/card.css");
+@import url("components/navbar.css");
+@import url("components/tabs.css");
+@import url("components/social.css");
+
+/* --- Polices --- */
+body
+{
+    font-family: "Open Sans", "Helvetica", "sans-serif";
+}
+
+/* --- Reste du CSS --- */
+.container
+{ 
+    margin: 0 auto; 
+    width: 74%;
+}
+
+.wrapper
+{
+    background-color: #F2F2F0;
+}

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ma super page pour THP</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="Ceci est ma première page ouf cool de test de CSS avancé" />
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body class="wrapper">
+      <%= yield %>
+  </body>
+</html>
