@@ -29,13 +29,18 @@
     clear:left;
 }
 
-.tab-frame input:nth-of-type(1):checked ~ .tab:nth-of-type(1), .tab-frame input:nth-of-type(2):checked ~ .tab:nth-of-type(2), .tab-frame input:nth-of-type(3):checked ~ .tab:nth-of-type(3)
+.tab-frame input:nth-of-type(1):checked ~ .tab:nth-of-type(1), .tab-frame input:nth-of-type(2):checked ~ .tab:nth-of-type(2), .tab-frame input:nth-of-type(3):checked ~ .tab:nth-of-type(3), .tab-frame input:nth-of-type(4):checked ~ .tab:nth-of-type(4)
 {
     display:block;
 }
 
+h1
+{
+    font-size: 1em;
+    font-weight: normal;
+}
 
-.tab3-box
+.tab3-4-box
 {
     padding-top: 20%;
     text-align: center;
