@@ -7,7 +7,7 @@ Bastien & Marion
 Myspace est mort. Vive Myspace 2.0 !
 
 ## Comment accéder au programme sur Heroku ?
-Lien -> [UI Sprint design](https://uisprintdesignlol2.herokuapp.com/)
+Lien -> [UI Sprint design](https://uisprintdesignlol4.herokuapp.com/)
 
 ## Comment accéder au programme en local ?
 Non
